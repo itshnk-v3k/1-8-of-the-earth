@@ -147,8 +147,8 @@ body {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(200, 51, 36, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(200, 51, 36, 0.07) 1px, transparent 1px);
+    linear-gradient(rgba(200, 51, 36, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 51, 36, 0.08) 1px, transparent 1px);
   background-size: 70px 70px;
   mask-image: radial-gradient(circle at center, black 30%, transparent 90%);
   pointer-events: none;
@@ -160,8 +160,9 @@ body {
   left: -8vw;
   background: radial-gradient(
     circle,
-    rgba(122, 177, 255, 0.4) 0%,
-    rgba(18, 18, 18, 0) 70%
+    rgba(200, 51, 36, 0.3) 0%,
+    rgba(200, 51, 36, 0.12) 35%,
+    rgba(18, 18, 18, 0) 75%
   );
 }
 
@@ -170,8 +171,9 @@ body {
   bottom: -20vh;
   background: radial-gradient(
     circle,
-    rgba(244, 193, 93, 0.35) 0%,
-    rgba(18, 18, 18, 0) 70%
+    rgba(160, 40, 30, 0.35) 0%,
+    rgba(200, 51, 36, 0.15) 30%,
+    rgba(18, 18, 18, 0) 75%
   );
 }
 
@@ -184,9 +186,9 @@ body {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(255, 155, 40, 0.2) 0%,
-    rgba(255, 140, 20, 0.08) 45%,
-    rgba(255, 120, 0, 0) 70%
+    rgba(255, 120, 40, 0.25) 0%,
+    rgba(255, 90, 20, 0.12) 45%,
+    rgba(255, 60, 0, 0) 70%
   );
   pointer-events: none;
   z-index: 0;
