@@ -462,7 +462,7 @@ h2 {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 16px;
   margin-top: 8px;
 }
@@ -528,6 +528,7 @@ h2 {
 }
 
 .team-badge {
+  white-space: nowrap;
   display: inline-block;
   background: var(--accent);
   color: #fff;
@@ -602,6 +603,7 @@ h2 {
 }
 
 .contact-card a {
+  width: fit-content;
   color: var(--accent);
   text-decoration: none;
   display: block;
