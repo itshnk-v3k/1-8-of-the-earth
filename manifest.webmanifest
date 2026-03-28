@@ -1,0 +1,30 @@
+{
+  "name": "1/8 Земли: Визионеры России",
+  "short_name": "1/8 Земли",
+  "description": "Закрытый показ фильма-исследования о визионерах российской промышленности. 24 апреля 2026, Кинотеатр «Художественный».",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "lang": "ru",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/favicon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

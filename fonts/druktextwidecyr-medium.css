@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'DrukTextWideCyr-Medium';
+	src: url('../fonts/druktextwidecyr-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/druktextwidecyr-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/druktextwidecyr-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/druktextwidecyr-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/druktextwidecyr-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/druktextwidecyr-medium.svg#druktextwidecyr-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
