@@ -276,6 +276,7 @@ h2 {
 .hero-logo {
   height: 86px;
   width: auto;
+  pointer-events: none;
 }
 
 .hero-grid {
