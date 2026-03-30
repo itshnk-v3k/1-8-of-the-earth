@@ -263,7 +263,7 @@ h2 {
       rgba(7, 7, 7, 0.8) 70%,
       rgba(9, 9, 9, 1) 100%
     ),
-    url("./assets/content/main-hero-image.jpg");
+    url("./assets/content/main-hero-image.webp");
   background-size: cover;
   background-position: center;
   z-index: -1;

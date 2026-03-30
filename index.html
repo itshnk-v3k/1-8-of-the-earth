@@ -7,7 +7,7 @@
     <title>1/8 Земли: Визионеры России — Закрытый показ 24 апреля 2026</title>
     <meta
       name="description"
-      content="Закрытый показ фильма-исследования «1/8 Земли: Визионеры России. Промышленность, которую невозможно (было) представить». 24 апреля 2026, 19:00–22:00, Кинотеатр «Художественный», Москва."
+      content="Закрытый показ фильма-исследования «1/8 Земли: Визионеры России. Промышленность, которую невозможно (было) представить». 24 апреля 2026, 18:00–21:00, Кинотеатр «Художественный», Москва."
     />
     <meta
       name="keywords"
@@ -71,8 +71,8 @@
         "@type": "Event",
         "name": "1/8 Земли: Визионеры России. Промышленность, которую невозможно (было) представить",
         "description": "Закрытый показ фильма-исследования о визионерах российской промышленности.",
-        "startDate": "2026-04-24T19:00:00+03:00",
-        "endDate": "2026-04-24T22:00:00+03:00",
+        "startDate": "2026-04-24T18:00:00+03:00",
+        "endDate": "2026-04-24T21:00:00+03:00",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
@@ -136,10 +136,25 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://rutube.ru" />
+
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
+
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
@@ -151,7 +166,7 @@
 
     <header class="site-header">
       <div class="container header-inner">
-        <a href="#" class="header-logo-link">
+        <a href="/" class="header-logo-link">
           <span class="header-logo-text">1/8 Земли</span>
         </a>
         <nav class="header-nav">
@@ -189,6 +204,8 @@
                 src="./assets/logo.svg"
                 alt="1/8 Земли — лого"
                 class="hero-logo"
+                width="195"
+                height="101"
                 onerror="this.style.display = 'none'"
               />
             </div>
@@ -198,7 +215,7 @@
             </h1>
             <div class="event-meta">
               <span>24/04</span>
-              <span>19:00 — 22:00</span>
+              <span>18:00 — 21:00</span>
               <span
                 ><a
                   href="https://yandex.ru/profile/-/CPVRaLMy"
@@ -283,7 +300,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/sedov.jpg"
+                src="./assets/team/sedov.webp"
                 alt="Владимир Седов"
               />
               <div class="visionary-card">
@@ -300,7 +317,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/ershov.jpg"
+                src="./assets/team/ershov.webp"
                 alt="Роман Ершов"
               />
               <div class="visionary-card">
@@ -317,7 +334,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/ivanova.jpg"
+                src="./assets/team/ivanova.webp"
                 alt="Ольга Иванова"
               />
               <div class="visionary-card">
@@ -334,7 +351,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/lider.jpg"
+                src="./assets/team/lider.webp"
                 alt="Виктор Лидер"
               />
               <div class="visionary-card">
@@ -351,7 +368,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/tutov.jpg"
+                src="./assets/team/tutov.webp"
                 alt="Сергей Тутов"
               />
               <div class="visionary-card">
@@ -368,7 +385,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/salakhov.jpg"
+                src="./assets/team/salakhov.webp"
                 alt="Ильдар Салахов"
               />
               <div class="visionary-card">
@@ -385,7 +402,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/khlebnikov.jpg"
+                src="./assets/team/khlebnikov.webp"
                 alt="Владимир Хлебников"
               />
               <div class="visionary-card">
@@ -402,7 +419,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/vlasov.jpg"
+                src="./assets/team/vlasov.webp"
                 alt="Денис Власов"
               />
               <div class="visionary-card">
@@ -419,7 +436,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/gorin.jpg"
+                src="./assets/team/gorin.webp"
                 alt="Александр Горин"
               />
               <div class="visionary-card">
@@ -436,7 +453,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/aranin.jpg"
+                src="./assets/team/aranin.webp"
                 alt="Роман Аранин"
               />
               <div class="visionary-card">
@@ -453,7 +470,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/gorelyy.jpg"
+                src="./assets/team/gorelyy.webp"
                 alt="Евгений Горелый"
               />
               <div class="visionary-card">
@@ -470,7 +487,7 @@
             <article class="visionary-item">
               <img
                 class="visionary-portrait"
-                src="./assets/team/shubochkina.jpg"
+                src="./assets/team/shubochkina.webp"
                 alt="Виктория Шубочкина"
               />
               <div class="visionary-card">
@@ -498,7 +515,7 @@
               <div class="team-avatar-wrap">
                 <img
                   class="team-avatar"
-                  src="./assets/team/saltykova.jpg"
+                  src="./assets/team/saltykova.webp"
                   alt="Виктория Салтыкова"
                   onerror="
                     this.style.display = 'none';
@@ -518,7 +535,7 @@
               <div class="team-avatar-wrap">
                 <img
                   class="team-avatar"
-                  src="./assets/team/gubin.jpg"
+                  src="./assets/team/gubin.webp"
                   alt="Иван Губин"
                   onerror="
                     this.style.display = 'none';
@@ -537,7 +554,7 @@
               <div class="team-avatar-wrap">
                 <img
                   class="team-avatar"
-                  src="./assets/team/chernovskaya.jpg"
+                  src="./assets/team/chernovskaya.webp"
                   alt="Ирина Черновская"
                   onerror="
                     this.style.display = 'none';
@@ -556,7 +573,7 @@
               <div class="team-avatar-wrap">
                 <img
                   class="team-avatar"
-                  src="./assets/team/zakharova.jpg"
+                  src="./assets/team/zakharova.webp"
                   alt="Ульяна Захарова"
                   onerror="
                     this.style.display = 'none';
@@ -575,7 +592,7 @@
               <div class="team-avatar-wrap">
                 <img
                   class="team-avatar"
-                  src="./assets/team/khodyreva.jpg"
+                  src="./assets/team/khodyreva.webp"
                   alt="Олеся Ходырева"
                   onerror="
                     this.style.display = 'none';
@@ -643,7 +660,7 @@
         <div class="container section-inner">
           <h2>До встречи на показе</h2>
           <p class="lead">
-            24/04, 19:00 — 22:00, Кинотеатр «Художественный». Закрытый показ по
+            24/04, 18:00 — 21:00, Кинотеатр «Художественный». Закрытый показ по
             приглашениям.
           </p>
 
@@ -718,12 +735,11 @@
         </div>
       </section>
     </main>
+    <script src="./script.js" defer></script>
     <footer>
       <div class="container">
-        <p>© 2026 1/8 Земли. Все права защищены.</p>
+        <p>© 2026 1/8и. Все права защищены.</p>
       </div>
     </footer>
-
-    <script src="./script.js"></script>
   </body>
 </html>
