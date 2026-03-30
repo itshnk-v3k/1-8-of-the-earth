@@ -1,7 +1,7 @@
-# 1/8 Земли — Закрытый показ 2026
+#1/8 of the Earth — Private Screening 2026
 
-Лендинг закрытого показа фильма-исследования **«1/8 Земли: Визионеры России. Промышленность, которую невозможно (было) представить»**.
+Landing page for the private screening of the research film **"1/8 of the Earth: Visionaries of Russia. An Industry That Was (Unimaginable)"**.
 
-🎬 **24 апреля 2026 / 18:00–21:00 / Кинотеатр «Художественный», Москва**
+🎬 **April 24, 2026 / 6:00 PM–9:00 PM / Khudozhestvenny Cinema, Moscow**
 
 🌐 [1-8-of-the-earth.vercel.app](https://1-8-of-the-earth.vercel.app/)
