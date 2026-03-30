@@ -1,4 +1,4 @@
-#1/8 of the Earth — Private Screening 2026
+# 1/8 of the Earth — Private Screening 2026
 
 Landing page for the private screening of the research film **"1/8 of the Earth: Visionaries of Russia. An Industry That Was (Unimaginable)"**.
 
