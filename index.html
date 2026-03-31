@@ -683,24 +683,37 @@
           </p>
 
           <!-- Timepad widget -->
-          <div class="timepad-wrap">
-            <div id="timepad-checkout" class="timepad-widget">
-              <!-- Timepad widget: вставьте код виджета сюда -->
-              <!-- <script src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-widget-v2="event_register" data-timepad-event-id="YOUR_ID"></script> -->
-              <div class="timepad-placeholder">
-                <p>Виджет регистрации Timepad</p>
-                <p class="muted" style="font-size: 13px">
-                  Для подключения — замените кодом виджета Timepad с реальным ID
-                  события
-                </p>
-                <a
-                  class="btn"
-                  href="https://timepad.ru"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style="margin-top: 12px; display: inline-block"
-                  >Timepad</a
+          <div class="timepad-outer">
+            <div class="timepad-outer__header">
+              <div class="timepad-outer__label">Регистрация</div>
+              <h3 class="timepad-outer__title">Забронировать место</h3>
+              <p class="timepad-outer__meta">
+                <span class="timepad-outer__dot"></span>24 апреля 2026
+                &nbsp;·&nbsp; 18:00
+                <span class="timepad-outer__dot"></span>Кинотеатр
+                «Художественный»
+              </p>
+            </div>
+            <div class="timepad-wrap">
+              <div id="timepad-checkout" class="timepad-widget">
+                <script
+                  type="text/javascript"
+                  async="async"
+                  defer="defer"
+                  charset="UTF-8"
+                  src="https://timepad.ru/js/tpwf/loader/min/loader.js"
+                  data-timepad-customized="375479"
+                  data-twf2s-event--id="3891968"
+                  data-timepad-widget-v2="event_register"
                 >
+                  (function() {
+                    return {
+                      "loadCSS": [
+                        "https://1-8-of-the-earth.vercel.app/timepad-widget-dark.css"
+                      ]
+                    };
+                  })();
+                </script>
               </div>
             </div>
           </div>

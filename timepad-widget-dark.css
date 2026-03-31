@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+html,
+body,
+.i-page,
+.tpwf-loader-fadeable,
+.b-registration__section,
+form#eventreg_form {
+  background-color: #171717 !important;
+  color: #f5f5f5 !important;
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif !important;
+}
+
+.b-reg-table,
+.b-reg-table__row,
+.b-reg-table__row_header,
+.b-reg-table__cell {
+  background: #171717 !important;
+  border-color: #2c2c2c !important;
+}
+
+.b-reg-table__row_header .b-reg-table__text,
+.b-reg-table__header {
+  color: #b3b3b3 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+}
+
+.b-reg-table__row {
+  border-bottom: 1px solid #2c2c2c !important;
+}
+
+.b-reg-table__text,
+.b-reg-table__cell label,
+.b-reg-table__cell .js-reg-table-price {
+  color: #f5f5f5 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.b-reg-table__category-description {
+  color: #b3b3b3 !important;
+  font-size: 12px !important;
+}
+
+.selectedTicketsInfo {
+  color: #c83324 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.b-reg-table__plusminus {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.b-reg-table__plusminus_btn {
+  width: 28px !important;
+  height: 28px !important;
+  background: #2a2a2a !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 6px !important;
+  color: #f5f5f5 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition:
+    background 0.2s,
+    border-color 0.2s !important;
+}
+
+.b-reg-table__plusminus_btn:hover {
+  background: #c83324 !important;
+  border-color: #c83324 !important;
+}
+
+.b-reg-table__plusminus_btn svg {
+  fill: #f5f5f5 !important;
+}
+
+.b-reg-table__plusminus-value {
+  color: #f5f5f5 !important;
+  font-weight: 700 !important;
+  min-width: 24px !important;
+  text-align: center !important;
+}
+
+.b-input,
+input[type="text"],
+input[type="email"] {
+  background: #111111 !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 8px !important;
+  color: #f5f5f5 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  padding: 10px 14px !important;
+  transition: border-color 0.2s !important;
+  box-sizing: border-box !important;
+}
+
+.b-input:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #c83324 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(200, 51, 36, 0.2) !important;
+}
+
+.b-unit__text,
+.b-registration__question {
+  color: #b3b3b3 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 6px !important;
+  display: block !important;
+}
+
+.b-registration__question_mandatory {
+  color: #c83324 !important;
+}
+
+.b-reg-row {
+  margin-bottom: 16px !important;
+}
+
+.b-payment__methods h5,
+.b-registration__header {
+  color: #b3b3b3 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+.b-payment__method {
+  background: #1e1e1e !important;
+  border: 1px solid #2c2c2c !important;
+  border-radius: 10px !important;
+  padding: 12px 16px !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  cursor: pointer !important;
+  transition:
+    border-color 0.2s,
+    background 0.2s !important;
+}
+
+.b-payment__method:hover {
+  border-color: #c83324 !important;
+  background: rgba(200, 51, 36, 0.06) !important;
+}
+
+.b-payment__method-active,
+.b-payment__method input:checked ~ * {
+  border-color: #c83324 !important;
+  background: rgba(200, 51, 36, 0.08) !important;
+}
+
+.b-payment__method-label {
+  color: #f5f5f5 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.b-payment__method-input {
+  accent-color: #c83324 !important;
+}
+
+.b-registration__accept {
+  color: #b3b3b3 !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 8px !important;
+}
+
+.b-registration__accept input[type="checkbox"] {
+  accent-color: #c83324 !important;
+  margin-top: 2px !important;
+  flex-shrink: 0 !important;
+}
+
+.b-registration__accept a {
+  color: #c83324 !important;
+  text-decoration: none !important;
+}
+
+.b-registration__accept a:hover {
+  text-decoration: underline !important;
+}
+
+.b-registration__check {
+  margin-bottom: 12px !important;
+}
+
+.b-pro-wiget__reg-button {
+  background: #c83324 !important;
+  border: none !important;
+  border-radius: 999px !important;
+  color: #fff !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  padding: 14px 32px !important;
+  cursor: pointer !important;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s !important;
+  text-transform: uppercase !important;
+  width: 100% !important;
+}
+
+.b-pro-wiget__reg-button:hover:not(.disabled) {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 28px rgba(200, 51, 36, 0.42) !important;
+}
+
+.b-pro-wiget__reg-button.disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.twf2-branding {
+  border-top: 1px solid #2c2c2c !important;
+  padding: 10px 0 !important;
+  margin-bottom: 8px !important;
+}
+
+.twf2-branding a {
+  color: #555 !important;
+  font-size: 12px !important;
+  text-decoration: none !important;
+}
+
+.twf2-branding svg {
+  opacity: 0.4 !important;
+}
+
+.b-registration__acquirings {
+  margin-top: 12px !important;
+  opacity: 0.5 !important;
+  filter: grayscale(0.3) !important;
+}
+
+.b-pro-widget__terms-popup {
+  background: #2a2a2a !important;
+  color: #f5f5f5 !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+}
+
+.b-registration__error {
+  background: rgba(200, 51, 36, 0.1) !important;
+  border: 1px solid rgba(200, 51, 36, 0.4) !important;
+  border-radius: 8px !important;
+  color: #ff6b5b !important;
+  padding: 10px 14px !important;
+}
+
+.i-page {
+  padding: 24px !important;
+}
